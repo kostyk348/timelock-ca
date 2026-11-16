@@ -15,7 +15,7 @@ information is never destroyed: a topological charge lock, a bitwise
 lattice gas with emergent gravity, a bit-exact time-travel cellular
 automaton, and Hamiltonian neural networks trained with O(1) memory.
 
-[![CI](https://github.com/example/timelock-ca/actions/workflows/ci.yml/badge.svg)](https://github.com/example/timelock-ca/actions)
+[![CI](https://github.com/kostyk348/timelock-ca/actions/workflows/ci.yml/badge.svg)](https://github.com/kostyk348/timelock-ca/actions/workflows/ci.yml)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-green)]()
 
