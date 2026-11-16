@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.11", "3.12"]
+        python-version: ["3.10", "3.11", "3.12"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,4 +25,6 @@ jobs:
         run: |
           timelock-ca margolus
           timelock-ca topo --steps 50
-          timelock-ca train --epochs 20 --n 200
+          # defaults (120 эпох, n=400) — режим, в котором README обещает 94.75%
+          # и в котором tests/test_symplectic.py проверяет accuracy > 0.9
+          timelock-ca train
